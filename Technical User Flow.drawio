@@ -1,9 +1,91 @@
-<mxfile host="app.diagrams.net" modified="2024-06-20T01:46:32.013Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" version="24.5.5" etag="5uWfSPnnXOmTgYCanVjb" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-20T02:15:42.032Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="WZeDy9cAt5t2VAbSABue" version="24.5.5" type="github">
   <diagram name="Page-1" id="artrsp16Wo_cu5XbZT9O">
-    <mxGraphModel>
+    <mxGraphModel dx="1878" dy="842" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="jOCZ8vW7wwSxnx5OB5-E-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="jOCZ8vW7wwSxnx5OB5-E-3" target="jOCZ8vW7wwSxnx5OB5-E-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jOCZ8vW7wwSxnx5OB5-E-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="jOCZ8vW7wwSxnx5OB5-E-3" target="jOCZ8vW7wwSxnx5OB5-E-20">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="770" y="515" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jOCZ8vW7wwSxnx5OB5-E-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jOCZ8vW7wwSxnx5OB5-E-3" target="jOCZ8vW7wwSxnx5OB5-E-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jOCZ8vW7wwSxnx5OB5-E-3" value="User Service" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="490" y="440" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="jOCZ8vW7wwSxnx5OB5-E-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="jOCZ8vW7wwSxnx5OB5-E-7" target="jOCZ8vW7wwSxnx5OB5-E-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jOCZ8vW7wwSxnx5OB5-E-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jOCZ8vW7wwSxnx5OB5-E-4" target="jOCZ8vW7wwSxnx5OB5-E-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jOCZ8vW7wwSxnx5OB5-E-4" value="Wex Subgraph" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="710" y="220" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="jOCZ8vW7wwSxnx5OB5-E-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jOCZ8vW7wwSxnx5OB5-E-5" target="jOCZ8vW7wwSxnx5OB5-E-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jOCZ8vW7wwSxnx5OB5-E-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="jOCZ8vW7wwSxnx5OB5-E-5" target="jOCZ8vW7wwSxnx5OB5-E-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jOCZ8vW7wwSxnx5OB5-E-5" value="Web App" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="90" y="220" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="jOCZ8vW7wwSxnx5OB5-E-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jOCZ8vW7wwSxnx5OB5-E-6" target="jOCZ8vW7wwSxnx5OB5-E-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jOCZ8vW7wwSxnx5OB5-E-6" value="OPA" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="290" y="220" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="jOCZ8vW7wwSxnx5OB5-E-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="jOCZ8vW7wwSxnx5OB5-E-7" target="jOCZ8vW7wwSxnx5OB5-E-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jOCZ8vW7wwSxnx5OB5-E-7" value="Supergraph" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="490" y="220" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="jOCZ8vW7wwSxnx5OB5-E-8" value="ANZ OneFleet DB" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="492.5" y="727.5" width="95" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="jOCZ8vW7wwSxnx5OB5-E-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jOCZ8vW7wwSxnx5OB5-E-9" target="jOCZ8vW7wwSxnx5OB5-E-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jOCZ8vW7wwSxnx5OB5-E-9" value="OAF" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="440" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="jOCZ8vW7wwSxnx5OB5-E-10" value="WEX" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="920" y="220" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="jOCZ8vW7wwSxnx5OB5-E-20" value="SFMC" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="720" y="725" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="jOCZ8vW7wwSxnx5OB5-E-23" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;What is missing?&lt;/h1&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;OPA&lt;/font&gt;&lt;/div&gt;&lt;div&gt;- Provision OPA Service&lt;/div&gt;&lt;div&gt;- Define roles and permissions (wiki page)&lt;/div&gt;&lt;div&gt;- Implement roles and permissions to OPA&lt;/div&gt;&lt;div&gt;- Rewire WebApp and Supergraph to OPA&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;SFMC&lt;/div&gt;&lt;div&gt;- Provision SFMC Instance&lt;/div&gt;&lt;div&gt;- Document required SFMC required templates (wiki page)&lt;/div&gt;&lt;div&gt;- Implement required SFMC email templates&lt;/div&gt;&lt;div&gt;- Rewire user service to use ANZ OneFleet SFMC instance&lt;br&gt;&lt;br&gt;UserService&lt;/div&gt;&lt;div&gt;- Expose createNewCustomer API to Internet for Apian&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1190" y="680" width="350" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="jOCZ8vW7wwSxnx5OB5-E-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="jOCZ8vW7wwSxnx5OB5-E-24" target="jOCZ8vW7wwSxnx5OB5-E-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1030" y="270" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="970" y="380" />
+              <mxPoint x="970" y="380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jOCZ8vW7wwSxnx5OB5-E-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jOCZ8vW7wwSxnx5OB5-E-24" target="jOCZ8vW7wwSxnx5OB5-E-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jOCZ8vW7wwSxnx5OB5-E-24" value="Appian" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="920" y="440" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="jOCZ8vW7wwSxnx5OB5-E-27" value="CIP" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="290" y="725" width="100" height="100" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
