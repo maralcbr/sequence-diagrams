@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-20T02:35:17.476Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="TVfOMuMB_pjH_avYKnNE" version="24.5.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-24T02:34:18.793Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="XFM-iJ9ycrcLI9Ww9Jqd" version="24.5.5" type="github">
   <diagram name="Page-1" id="artrsp16Wo_cu5XbZT9O">
     <mxGraphModel dx="1878" dy="842" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -66,7 +66,7 @@
           <mxGeometry x="670" y="500" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="jOCZ8vW7wwSxnx5OB5-E-23" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;What is missing?&lt;/h1&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;User to Account Mapping (Win Chen)&lt;/div&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;- Create field/migration to map account to user&lt;/div&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;- Update code to use the new field&lt;/div&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;div&gt;UserService (Win Chen)&lt;/div&gt;&lt;div&gt;- Expose createNewCustomer API to Internet for Apian&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;OPA (Shankar)&lt;/font&gt;&lt;/div&gt;&lt;div&gt;- Provision OPA Service&lt;/div&gt;&lt;div&gt;- Define roles and permissions (wiki page)&lt;/div&gt;&lt;div&gt;- Implement roles and permissions to OPA&lt;/div&gt;&lt;div&gt;- Rewire WebApp and Supergraph to OPA&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;SFMC (Jack)&lt;/div&gt;&lt;div&gt;- Provision SFMC Instance&lt;/div&gt;&lt;div&gt;- Document required SFMC required templates (wiki page)&lt;/div&gt;&lt;div&gt;- Implement required SFMC email templates&lt;/div&gt;&lt;div&gt;- Rewire user service to use ANZ OneFleet SFMC instance&lt;br&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="850" y="470" width="350" height="350" as="geometry" />
+          <mxGeometry x="1430" y="440" width="350" height="350" as="geometry" />
         </mxCell>
         <mxCell id="jOCZ8vW7wwSxnx5OB5-E-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="jOCZ8vW7wwSxnx5OB5-E-24" target="jOCZ8vW7wwSxnx5OB5-E-10">
           <mxGeometry relative="1" as="geometry">
@@ -86,9 +86,130 @@
         <mxCell id="jOCZ8vW7wwSxnx5OB5-E-27" value="CIP" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="280" y="500" width="100" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="jOCZ8vW7wwSxnx5OB5-E-34" value="State of ANZ OneFleet Portal" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=32;" vertex="1" parent="1">
-          <mxGeometry x="30" y="20" width="480" height="80" as="geometry" />
+        <mxCell id="jOCZ8vW7wwSxnx5OB5-E-34" value="State of ANZ OneFleet Portal - User" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=32;" vertex="1" parent="1">
+          <mxGeometry x="30" y="30" width="530" height="80" as="geometry" />
         </mxCell>
+        <object label="1" id="jOCZ8vW7wwSxnx5OB5-E-36">
+          <mxCell style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;labelBackgroundColor=none;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" vertex="1" parent="1">
+            <mxGeometry x="1130" y="270" width="30" height="30" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="2" id="jOCZ8vW7wwSxnx5OB5-E-37">
+          <mxCell style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;labelBackgroundColor=none;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" vertex="1" parent="1">
+            <mxGeometry x="990" y="320" width="30" height="30" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="jOCZ8vW7wwSxnx5OB5-E-38" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;br&gt;&lt;/h1&gt;&lt;div&gt;1) User fill registration details in OAF&lt;/div&gt;&lt;div&gt;2) OAF Submits data to Applian&lt;/div&gt;&lt;div&gt;3) Appian registers user in WEX (Multiple API calls)&lt;/div&gt;&lt;div&gt;4) Appian registers user on SFMC (generate contact id)&lt;/div&gt;&lt;div&gt;5) Calls create user on user service (passing WEX account number and SFMC contact id)&lt;/div&gt;&lt;div&gt;6) Create record in database&lt;/div&gt;&lt;div&gt;7) Send user invite email&lt;/div&gt;&lt;div&gt;8) User accepts invite email&lt;/div&gt;&lt;div&gt;9) User service r&lt;span style=&quot;background-color: initial;&quot;&gt;egisters user on CIP&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;10) Send set password email&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;11) User clicks to change password (happens on CIP)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;12) User is redirected to the portal in an authenticated state&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="890" y="550" width="350" height="260" as="geometry" />
+        </mxCell>
+        <object label="3" id="jOCZ8vW7wwSxnx5OB5-E-40">
+          <mxCell style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;labelBackgroundColor=none;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" vertex="1" parent="1">
+            <mxGeometry x="910" y="270" width="30" height="30" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="4" id="jOCZ8vW7wwSxnx5OB5-E-41">
+          <mxCell style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;labelBackgroundColor=none;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" vertex="1" parent="1">
+            <mxGeometry x="910" y="460" width="30" height="30" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="jOCZ8vW7wwSxnx5OB5-E-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jOCZ8vW7wwSxnx5OB5-E-24" target="jOCZ8vW7wwSxnx5OB5-E-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="770" y="460" as="sourcePoint" />
+            <mxPoint x="800" y="520" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="900" y="550" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <object label="5" id="jOCZ8vW7wwSxnx5OB5-E-44">
+          <mxCell style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;labelBackgroundColor=none;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" vertex="1" parent="1">
+            <mxGeometry x="750" y="320" width="30" height="30" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="6" id="jOCZ8vW7wwSxnx5OB5-E-45">
+          <mxCell style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;labelBackgroundColor=none;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" vertex="1" parent="1">
+            <mxGeometry x="520" y="440" width="30" height="30" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="7" id="jOCZ8vW7wwSxnx5OB5-E-46">
+          <mxCell style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;labelBackgroundColor=none;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" vertex="1" parent="1">
+            <mxGeometry x="740" y="420" width="30" height="30" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="9" id="jOCZ8vW7wwSxnx5OB5-E-47">
+          <mxCell style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;labelBackgroundColor=none;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" vertex="1" parent="1">
+            <mxGeometry x="380" y="400" width="30" height="30" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="8" id="jOCZ8vW7wwSxnx5OB5-E-48">
+          <mxCell style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;labelBackgroundColor=none;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" vertex="1" parent="1">
+            <mxGeometry x="630" y="630" width="30" height="30" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="jOCZ8vW7wwSxnx5OB5-E-49" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="600" y="680" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jOCZ8vW7wwSxnx5OB5-E-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.028;entryY=0.888;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="jOCZ8vW7wwSxnx5OB5-E-49" target="jOCZ8vW7wwSxnx5OB5-E-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="650" y="585" as="targetPoint" />
+            <mxPoint x="650" y="645" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="615" y="399" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jOCZ8vW7wwSxnx5OB5-E-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jOCZ8vW7wwSxnx5OB5-E-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="760" y="575" as="sourcePoint" />
+            <mxPoint x="630" y="715" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="720" y="715" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <object label="7" id="jOCZ8vW7wwSxnx5OB5-E-52">
+          <mxCell style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;labelBackgroundColor=none;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" vertex="1" parent="1">
+            <mxGeometry x="740" y="640" width="30" height="30" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="10" id="jOCZ8vW7wwSxnx5OB5-E-53">
+          <mxCell style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;labelBackgroundColor=none;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" vertex="1" parent="1">
+            <mxGeometry x="740" y="460" width="30" height="30" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="10" id="jOCZ8vW7wwSxnx5OB5-E-54">
+          <mxCell style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;labelBackgroundColor=none;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" vertex="1" parent="1">
+            <mxGeometry x="740" y="680" width="30" height="30" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="jOCZ8vW7wwSxnx5OB5-E-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.453;entryY=1.03;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="jOCZ8vW7wwSxnx5OB5-E-49" target="jOCZ8vW7wwSxnx5OB5-E-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="620" as="targetPoint" />
+            <mxPoint x="550" y="720.0000000000002" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="325" y="720" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <object label="11" id="jOCZ8vW7wwSxnx5OB5-E-56">
+          <mxCell style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;labelBackgroundColor=none;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" vertex="1" parent="1">
+            <mxGeometry x="450" y="680" width="30" height="30" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="jOCZ8vW7wwSxnx5OB5-E-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="jOCZ8vW7wwSxnx5OB5-E-27" target="jOCZ8vW7wwSxnx5OB5-E-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="50" y="585" as="targetPoint" />
+            <mxPoint x="290" y="610" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="115" y="575" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <object label="12" id="jOCZ8vW7wwSxnx5OB5-E-58">
+          <mxCell style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;labelBackgroundColor=none;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" vertex="1" parent="1">
+            <mxGeometry x="190" y="585" width="30" height="30" as="geometry" />
+          </mxCell>
+        </object>
       </root>
     </mxGraphModel>
   </diagram>
