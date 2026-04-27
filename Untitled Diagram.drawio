@@ -1,9 +1,158 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36" version="29.6.6">
-  <diagram name="Page-1" id="fP7xwkswSO7htCijOOUe">
-    <mxGraphModel>
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36">
+  <diagram name="UCQ Board Architecture" id="fP7xwkswSO7htCijOOUe">
+    <mxGraphModel dx="1763" dy="1126" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="5P4csqHEpLbOgDc5ONpC-70" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=28;fontStyle=1;fontColor=#172033;" value="UCQ AP Invoice AI Processing - Azure Global Standard Exception" vertex="1">
+          <mxGeometry height="42" width="1035" x="55" y="36" as="geometry" />
+        </mxCell>
+        <mxCell id="5P4csqHEpLbOgDc5ONpC-71" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#526173;" value="Board decision: approve controlled GPT-5.5 inference through Azure Global Standard because the required pay-per-token model access is not available in Australia." vertex="1">
+          <mxGeometry height="38" width="1030" x="57" y="82" as="geometry" />
+        </mxCell>
+        <mxCell id="5P4csqHEpLbOgDc5ONpC-72" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F4F8FB;strokeColor=#4E85B7;strokeWidth=2;dashed=1;dashPattern=8 6;fontSize=17;fontStyle=1;fontColor=#244A6D;align=left;verticalAlign=top;spacingLeft=18;spacingTop=14;arcSize=4;" value="Australia / UCQ Azure tenancy boundary" vertex="1">
+          <mxGeometry height="690" width="930" x="50" y="111" as="geometry" />
+        </mxCell>
+        <mxCell id="5P4csqHEpLbOgDc5ONpC-73" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF7ED;strokeColor=#D97706;strokeWidth=3;dashed=1;dashPattern=8 6;fontSize=17;fontStyle=1;fontColor=#92400E;align=left;verticalAlign=top;spacingLeft=18;spacingTop=14;arcSize=4;" value="Azure Global Standard zone" vertex="1">
+          <mxGeometry height="690" width="260" x="1015" y="135" as="geometry" />
+        </mxCell>
+        <mxCell id="5P4csqHEpLbOgDc5ONpC-74" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;strokeWidth=2;fontSize=18;fontStyle=1;fontColor=#172033;align=left;verticalAlign=top;spacingLeft=18;spacingTop=14;arcSize=4;" value="Numbered details" vertex="1">
+          <mxGeometry height="690" width="240" x="1310" y="135" as="geometry" />
+        </mxCell>
+        <mxCell id="5P4csqHEpLbOgDc5ONpC-75" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#EAF4FF;strokeColor=#2563EB;strokeWidth=3;fontSize=46;fontColor=#1E40AF;" value="✉" vertex="1">
+          <mxGeometry height="105" width="105" x="140" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="5P4csqHEpLbOgDc5ONpC-76" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;whiteSpace=wrap;fontSize=15;fontStyle=1;fontColor=#172033;" value="Outlook mailbox" vertex="1">
+          <mxGeometry height="28" width="150" x="117" y="394" as="geometry" />
+        </mxCell>
+        <mxCell id="5P4csqHEpLbOgDc5ONpC-77" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FFFFFF;strokeColor=#64748B;strokeWidth=2;fontSize=44;fontColor=#334155;" value="📄" vertex="1">
+          <mxGeometry height="105" width="105" x="140" y="505" as="geometry" />
+        </mxCell>
+        <mxCell id="5P4csqHEpLbOgDc5ONpC-78" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;whiteSpace=wrap;fontSize=15;fontStyle=1;fontColor=#172033;" value="Invoices from suppliers" vertex="1">
+          <mxGeometry height="28" width="155" x="115" y="619" as="geometry" />
+        </mxCell>
+        <mxCell id="5P4csqHEpLbOgDc5ONpC-79" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F5EE;strokeColor=#12805C;strokeWidth=3;arcSize=5;" value="" vertex="1">
+          <mxGeometry height="195" width="250" x="400" y="315" as="geometry" />
+        </mxCell>
+        <mxCell id="5P4csqHEpLbOgDc5ONpC-80" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FFFFFF;strokeColor=#16A34A;strokeWidth=2.5;fontSize=50;fontColor=#12805C;" value="⚙" vertex="1">
+          <mxGeometry height="75" width="75" x="487.5" y="349" as="geometry" />
+        </mxCell>
+        <mxCell id="5P4csqHEpLbOgDc5ONpC-81" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;whiteSpace=wrap;fontSize=17;fontStyle=1;fontColor=#064E3B;" value="Blue Sky Platform" vertex="1">
+          <mxGeometry height="28" width="200" x="425" y="438.5" as="geometry" />
+        </mxCell>
+        <mxCell id="5P4csqHEpLbOgDc5ONpC-82" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#16A34A;strokeWidth=1.5;fontSize=13;fontStyle=1;fontColor=#14532D;arcSize=18;" value="AP module" vertex="1">
+          <mxGeometry height="30" width="106" x="472" y="494" as="geometry" />
+        </mxCell>
+        <mxCell id="5P4csqHEpLbOgDc5ONpC-83" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#F1F5F9;strokeColor=#475569;strokeWidth=2.5;fontSize=42;fontColor=#334155;" value="🗄" vertex="1">
+          <mxGeometry height="100" width="100" x="790" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="5P4csqHEpLbOgDc5ONpC-84" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;whiteSpace=wrap;fontSize=15;fontStyle=1;fontColor=#172033;" value="Audit store" vertex="1">
+          <mxGeometry height="28" width="160" x="760" y="162" as="geometry" />
+        </mxCell>
+        <mxCell id="5P4csqHEpLbOgDc5ONpC-85" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FFFFFF;strokeColor=#475569;strokeWidth=2.5;fontSize=48;fontStyle=1;fontColor=#334155;" value="C" vertex="1">
+          <mxGeometry height="105" width="105" x="795" y="466.5" as="geometry" />
+        </mxCell>
+        <mxCell id="5P4csqHEpLbOgDc5ONpC-86" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;whiteSpace=wrap;fontSize=15;fontStyle=1;fontColor=#172033;" value="Coupa" vertex="1">
+          <mxGeometry height="28" width="155" x="755" y="564" as="geometry" />
+        </mxCell>
+        <mxCell id="5P4csqHEpLbOgDc5ONpC-87" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FFFBEB;strokeColor=#D97706;strokeWidth=3;fontSize=20;fontStyle=1;fontColor=#78350F;" value="GPT-5.5" vertex="1">
+          <mxGeometry height="125" width="125" x="1090" y="309.5" as="geometry" />
+        </mxCell>
+        <mxCell id="5P4csqHEpLbOgDc5ONpC-88" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;whiteSpace=wrap;fontSize=15;fontStyle=1;fontColor=#78350F;" value="Global LLM" vertex="1">
+          <mxGeometry height="28" width="155" x="1075" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="5P4csqHEpLbOgDc5ONpC-89" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FEF2F2;strokeColor=#DC2626;strokeWidth=2;fontSize=14;fontStyle=1;fontColor=#7F1D1D;arcSize=20;" value="Policy exception" vertex="1">
+          <mxGeometry height="36" width="170" x="1060" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="5P4csqHEpLbOgDc5ONpC-90" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;fontSize=13;fontColor=#334155;align=left;verticalAlign=top;spacingLeft=8;" value="1  Outlook AP mailbox receives supplier invoices and attachments." vertex="1">
+          <mxGeometry height="58" width="195" x="1330" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="5P4csqHEpLbOgDc5ONpC-91" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;fontSize=13;fontColor=#334155;align=left;verticalAlign=top;spacingLeft=8;" value="2  Blue Sky reads the mailbox and routes invoices to the AP automation module." vertex="1">
+          <mxGeometry height="70" width="195" x="1330" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="5P4csqHEpLbOgDc5ONpC-92" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;fontSize=13;fontColor=#334155;align=left;verticalAlign=top;spacingLeft=8;" value="3  The AP module sends only the required invoice content to GPT-5.5 for inference." vertex="1">
+          <mxGeometry height="70" width="195" x="1330" y="342" as="geometry" />
+        </mxCell>
+        <mxCell id="5P4csqHEpLbOgDc5ONpC-93" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;fontSize=13;fontColor=#92400E;align=left;verticalAlign=top;spacingLeft=8;" value="4  GPT-5.5 Global Standard is outside the Australia-only LLM policy boundary." vertex="1">
+          <mxGeometry height="70" width="195" x="1330" y="424" as="geometry" />
+        </mxCell>
+        <mxCell id="5P4csqHEpLbOgDc5ONpC-94" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;fontSize=13;fontColor=#334155;align=left;verticalAlign=top;spacingLeft=8;" value="5  Structured invoice data returns to Blue Sky, then Coupa is updated." vertex="1">
+          <mxGeometry height="58" width="195" x="1330" y="506" as="geometry" />
+        </mxCell>
+        <mxCell id="5P4csqHEpLbOgDc5ONpC-95" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;fontSize=13;fontColor=#334155;align=left;verticalAlign=top;spacingLeft=8;" value="6  Operational state, validation results, and audit history remain in the UCQ Azure boundary." vertex="1">
+          <mxGeometry height="70" width="195" x="1330" y="576" as="geometry" />
+        </mxCell>
+        <mxCell id="5P4csqHEpLbOgDc5ONpC-96" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FEF2F2;strokeColor=#DC2626;strokeWidth=1.5;fontSize=13;fontStyle=1;fontColor=#7F1D1D;align=left;verticalAlign=middle;spacingLeft=12;arcSize=4;" value="Decision requested: approve this controlled global inference path until Australian pay-per-token GPT-5.5 access is available." vertex="1">
+          <mxGeometry height="95" width="195" x="1330" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="5P4csqHEpLbOgDc5ONpC-97" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#2563EB;strokeColor=#1D4ED8;fontColor=#FFFFFF;fontStyle=1;fontSize=14;" value="1" vertex="1">
+          <mxGeometry height="30" width="30" x="270" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="5P4csqHEpLbOgDc5ONpC-98" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#16A34A;strokeColor=#15803D;fontColor=#FFFFFF;fontStyle=1;fontSize=14;" value="2" vertex="1">
+          <mxGeometry height="30" width="30" x="330" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="5P4csqHEpLbOgDc5ONpC-99" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#DC2626;strokeColor=#B91C1C;fontColor=#FFFFFF;fontStyle=1;fontSize=14;" value="3" vertex="1">
+          <mxGeometry height="30" width="30" x="1030" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="5P4csqHEpLbOgDc5ONpC-100" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#D97706;strokeColor=#B45309;fontColor=#FFFFFF;fontStyle=1;fontSize=14;" value="4" vertex="1">
+          <mxGeometry height="30" width="30" x="1110" y="534" as="geometry" />
+        </mxCell>
+        <mxCell id="5P4csqHEpLbOgDc5ONpC-101" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#334155;strokeColor=#1E293B;fontColor=#FFFFFF;fontStyle=1;fontSize=14;" value="5" vertex="1">
+          <mxGeometry height="30" width="30" x="680" y="504" as="geometry" />
+        </mxCell>
+        <mxCell id="5P4csqHEpLbOgDc5ONpC-102" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#475569;strokeColor=#334155;fontColor=#FFFFFF;fontStyle=1;fontSize=14;" value="6" vertex="1">
+          <mxGeometry height="30" width="30" x="515" y="625" as="geometry" />
+        </mxCell>
+        <mxCell id="5P4csqHEpLbOgDc5ONpC-103" edge="1" parent="1" source="5P4csqHEpLbOgDc5ONpC-77" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#2563EB;endArrow=block;endFill=1;fontSize=12;fontColor=#1E3A8A;" target="5P4csqHEpLbOgDc5ONpC-75" value="Invoices">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5P4csqHEpLbOgDc5ONpC-104" edge="1" parent="1" source="5P4csqHEpLbOgDc5ONpC-75" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2.5;strokeColor=#16A34A;endArrow=block;endFill=1;fontSize=12;fontColor=#14532D;" target="5P4csqHEpLbOgDc5ONpC-79" value="Read">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="300" y="333" />
+              <mxPoint x="300" y="448" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5P4csqHEpLbOgDc5ONpC-106" edge="1" parent="1" source="5P4csqHEpLbOgDc5ONpC-87" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2.5;strokeColor=#D97706;endArrow=block;endFill=1;fontSize=12;fontColor=#78350F;" value="Structured result">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1155" y="620" />
+              <mxPoint x="515" y="620" />
+            </Array>
+            <mxPoint x="515" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5P4csqHEpLbOgDc5ONpC-107" edge="1" parent="1" source="5P4csqHEpLbOgDc5ONpC-79" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2.5;strokeColor=#334155;endArrow=block;endFill=1;fontSize=12;fontColor=#334155;" target="5P4csqHEpLbOgDc5ONpC-85" value="Update invoice">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5P4csqHEpLbOgDc5ONpC-109" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#64748B;" value="Source basis: Microsoft documents Global Standard as pay-per-token with inference potentially processed in any Azure region; GPT-5.5 Global Standard availability is listed outside Australia. Confirm final retention wording against UCQ&#39;s Azure configuration." vertex="1">
+          <mxGeometry height="42" width="1190" x="58" y="850" as="geometry" />
+        </mxCell>
+        <mxCell id="5P4csqHEpLbOgDc5ONpC-113" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;strokeColor=#DC2626;endArrow=block;endFill=1;fontSize=12;fontStyle=1;fontColor=#7F1D1D;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="5P4csqHEpLbOgDc5ONpC-83" value="">
+          <mxGeometry relative="1" x="0.1628" y="22" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="650" y="370" />
+              <mxPoint x="840" y="370" />
+            </Array>
+            <mxPoint x="650" y="410" as="sourcePoint" />
+            <mxPoint x="780" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5P4csqHEpLbOgDc5ONpC-112" edge="1" parent="1" source="5P4csqHEpLbOgDc5ONpC-79" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;strokeColor=#DC2626;endArrow=block;endFill=1;fontSize=12;fontStyle=1;fontColor=#7F1D1D;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="5P4csqHEpLbOgDc5ONpC-87" value="Invoice content for inference">
+          <mxGeometry relative="1" x="0.5005" y="22" as="geometry">
+            <mxPoint x="1" as="offset" />
+            <Array as="points">
+              <mxPoint x="650" y="372" />
+            </Array>
+            <mxPoint x="890" y="325" as="sourcePoint" />
+            <mxPoint x="1000" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5P4csqHEpLbOgDc5ONpC-114" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FFFFFF;strokeColor=#475569;strokeWidth=2.5;fontSize=48;fontStyle=1;fontColor=#334155;" value="SF" vertex="1">
+          <mxGeometry height="105" width="105" x="320" y="630" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
